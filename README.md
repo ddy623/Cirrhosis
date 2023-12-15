@@ -8,9 +8,9 @@ Final Analysis:
 This model used various methods to attempt to make a prediction as to what persons would likely develop Cirrhosis of the liver. For example, we used feature engineering such as PCA, 
 Wrapper Method, and Random Forest Classifier.  
 Using PCA, the model showed an overall accuracy of 0.75% on the test data. We also used PCA with a variance of 0.85%, which showed an overrall accuracy of 0.74%.  
-Using the model without PCA, the results showed an overrall accuracy of 1.00 on the train data but on the test data, it showed 0.79%
+Using the model without PCA, the results showed an overrall accuracy of 1.00 on the train data but on the test data, it showed 0.79%.  This is the best model and should be use to analyze the data to make predictions.
 
 When using feature selection, the model showed an overrall accuracy of 0.79 and when using the Wrapper Method, there was a 0.55 level of accuracy on the test data.  On the other hand, for the train data, there was an accuracy level of 0.86, as this indicates overfitting with the model.
 In using neural networks, the results showed an overrall accuracy of 0.29, which is the lowest of all the models. It can be assumed that the models were not able to have high accuracy due to overfitting, which potentially contributed to the model not being able to generalize the data.
 
-
+Overrall, the data on the neural network was shown to be much lower than the results of machine learning.  Perhaps, better data is needed to reduce overfitting among the models.
